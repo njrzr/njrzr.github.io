@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: njrzr.github.io
+Token: 21b071877ee1a5e9a9c718469e3be3922759192a8f25931d6d42a9c7baed81c0
