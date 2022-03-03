@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Conversor ZERO+PLUS",
+    "image": "images/conversor.webp",
+    "href": "https://njrzr.github.io/conversor-zp/",
+    "description": "Conversor de divisas y cryptomonedas.",
+    "type": "personal"
+  },
+  {
+    "name": "En Memoria Luis Orlando Pernia Rujano",
+    "image": "images/memoria.webp",
+    "href": "https://njrzr.github.io/en-memoria_luis-pernia/",
+    "description": "Pagina memorial de mi difunto padre.",
+    "type": "personal"
+  }
+]

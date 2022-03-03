@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Mockup Bakery",
+    "image": "images/bakery.webp",
+    "href": "https://njrzr.github.io/mockups/mockup_bakery/index.html",
+    "description": "Mockup for a bakery page."
+  },
+  {
+    "name": "Mockup Celebrity",
+    "image": "images/celebrity.webp",
+    "href": "https://njrzr.github.io/mockups/mockup_celebrity/index.html",
+    "description": "Mockup for an artist page."
+  },
+  {
+    "name": "Mockup Landing",
+    "image": "images/landing.webp",
+    "href": "https://njrzr.github.io/mockups/mockup_landing/index.html",
+    "description": "Mockup for a land page."
+  }
+]
