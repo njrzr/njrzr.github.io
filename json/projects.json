@@ -16,15 +16,8 @@
   {
     "name": "Xbox Live Achievements",
     "image": "images/main_bg.webp",
-    "href": "#",
+    "href": "https://xbox-achievements.netlify.app",
     "description": "Coming Soon.",
     "type": "personal"
-  },
-  {
-    "name": "Pukara",
-    "image": "images/main_bg.webp",
-    "href": "#",
-    "description": "Coming Soon.",
-    "type": "client"
   }
 ]
