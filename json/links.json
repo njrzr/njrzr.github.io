@@ -2,31 +2,37 @@
   {
     "name": "GitHub",
     "href": "https://github.com/njrzr",
-    "icon": "fab fa-github"
+    "icon": "fab fa-github",
+    "show": true
   },
   {
     "name": "GitLab",
     "href": "https://gitlab.com/enjeruzero",
-    "icon": "fab fa-gitlab"
+    "icon": "fab fa-gitlab",
+    "show": true
   },
   {
     "name": "LinkedIn",
     "href": "https://www.linkedin.com/in/enjeru-zero/",
-    "icon": "fab fa-linkedin"
+    "icon": "fab fa-linkedin",
+    "show": true
   },
   {
     "name": "Fiverr",
     "href": "https://www.fiverr.com/enjeruzero/",
-    "icon": "fa-solid fa-code"
+    "icon": "fa-solid fa-code",
+    "show": true
   },
   {
     "name": "Phone",
     "href": "tel:+573228102712",
-    "icon": "fa-solid fa-mobile-android"
+    "icon": "fa-solid fa-mobile-android",
+    "show": false
   },
   {
     "name": "Email",
     "href": "mailto:angelus078+business@gmail.com",
-    "icon": "fa-solid fa-envelope"
+    "icon": "fa-solid fa-envelope",
+    "show": true
   }
 ]
