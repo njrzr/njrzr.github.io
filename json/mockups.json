@@ -3,18 +3,21 @@
     "name": "Maqueta Bakery",
     "image": "images/bakery.webp",
     "href": "https://njrzr.github.io/mockups/mockup_bakery/index.html",
-    "description": "Maqueta para una pagina de panaderia."
+    "description": "Maqueta para una pagina de panaderia.",
+    "show": true
   },
   {
     "name": "Maqueta Celebrity",
     "image": "images/celebrity.webp",
     "href": "https://njrzr.github.io/mockups/mockup_celebrity/index.html",
-    "description": "Maqueta para una pagina de artista/celebridad."
+    "description": "Maqueta para una pagina de artista/celebridad.",
+    "show": true
   },
   {
     "name": "Maqueta Landing",
     "image": "images/landing.webp",
     "href": "https://njrzr.github.io/mockups/mockup_landing/index.html",
-    "description": "Maqueta para una pagina de inicio."
+    "description": "Maqueta para una pagina de inicio.",
+    "show": true
   }
 ]

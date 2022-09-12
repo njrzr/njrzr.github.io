@@ -9,7 +9,7 @@
     "name": "GitLab",
     "href": "https://gitlab.com/enjeruzero",
     "icon": "fab fa-gitlab",
-    "show": true
+    "show": false
   },
   {
     "name": "LinkedIn",
@@ -21,7 +21,7 @@
     "name": "Fiverr",
     "href": "https://www.fiverr.com/enjeruzero/",
     "icon": "fa-solid fa-code",
-    "show": true
+    "show": false
   },
   {
     "name": "Phone",
@@ -33,6 +33,18 @@
     "name": "Email",
     "href": "mailto:angelus078+business@gmail.com",
     "icon": "fa-solid fa-envelope",
+    "show": true
+  },
+  {
+    "name": "TrueAchievements",
+    "href": "https://www.trueachievements.com/gamer/EnjeruZero",
+    "icon": "fas fa-gamepad",
+    "show": true
+  },
+  {
+    "name": "Twitch",
+    "href": "https://www.twitch.tv/njrzr",
+    "icon": "fa-brands fa-twitch",
     "show": true
   }
 ]

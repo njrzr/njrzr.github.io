@@ -4,20 +4,31 @@
     "image": "images/conversor.webp",
     "href": "https://njrzr.github.io/conversor-zp/",
     "description": "Conversor de divisas y cryptomonedas.",
-    "type": "personal"
+    "type": "personal",
+    "show": true
   },
   {
     "name": "En Memoria Luis Orlando Pernia Rujano",
     "image": "images/memoria.webp",
     "href": "https://njrzr.github.io/en-memoria_luis-pernia/",
     "description": "Pagina memorial de mi difunto padre.",
-    "type": "personal"
+    "type": "personal",
+    "show": true
   },
   {
     "name": "Xbox Live Achievements",
     "image": "images/main_bg.webp",
     "href": "https://xbox-achievements.netlify.app",
     "description": "Coming Soon.",
-    "type": "personal"
+    "type": "personal",
+    "show": false
+  },
+  {
+    "name": "Pukara",
+    "image": "images/main_bg.webp",
+    "href": "https://www.pukara.es",
+    "description": "Pagina principal de Pukara",
+    "type": "work",
+    "show": true
   }
 ]
