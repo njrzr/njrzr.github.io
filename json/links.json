@@ -18,6 +18,12 @@
     "show": true
   },
   {
+    "name": "Torre",
+    "href": "https://torre.co/enjeruzero",
+    "icon": "fa-solid fa-computer",
+    "show": true
+  },
+  {
     "name": "Fiverr",
     "href": "https://www.fiverr.com/enjeruzero/",
     "icon": "fa-solid fa-code",

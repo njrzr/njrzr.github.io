@@ -25,9 +25,40 @@
   },
   {
     "name": "Pukara",
-    "image": "images/main_bg.webp",
+    "image": "images/pukara.webp",
     "href": "https://www.pukara.es",
-    "description": "Pagina principal de Pukara",
+    "description": "Pagina de inicio de PukaraIT.",
+    "type": "work",
+    "show": true
+  },
+  {
+    "name": "Canal Park",
+    "image": "images/main_bg.webp",
+    "href": "https://www.canalpark.com",
+    "description": "Pagina de demostracion de suites de edificio Canal Park.",
+    "type": "work",
+    "show": false
+  },
+  {
+    "name": "Devoglas",
+    "image": "images/main_bg.webp",
+    "href": "https://www.devoglas.com",
+    "description": "Pagina de Devoglas",
+    "type": "work",
+    "show": false
+  },
+  {
+    "name": "Push Notifications",
+    "image": "images/main_bg.webp",
+    "href": "https://www.crochetisimo.com",
+    "description": "App de notificaciones push para Crochetisimo.",
+    "type": "work",
+    "show": true
+  },{
+    "name": "Cicerone",
+    "image": "images/cicerone.webp",
+    "href": "https://cicerone.guide/",
+    "description": "Sitio turistico para consultar monumentos, puntos de interes y sitios naturales.",
     "type": "work",
     "show": true
   }
