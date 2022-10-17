@@ -16,12 +16,12 @@
     "show": true
   },
   {
-    "name": "Xbox Live Achievements",
-    "image": "images/main_bg.webp",
-    "href": "https://xbox-achievements.netlify.app",
-    "description": "Coming Soon.",
+    "name": "Xbox Achievements",
+    "image": "images/achievement.webp",
+    "href": "https://enjeruzero-achievements.netlify.app/",
+    "description": "Pagina donde muestro los logros obtenidos en Xbox, usando la api de OpenXbl.",
     "type": "personal",
-    "show": false
+    "show": true
   },
   {
     "name": "Pukara",
