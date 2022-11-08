@@ -2,8 +2,8 @@
   {
     "name": "Conversor ZERO+PLUS",
     "image": "images/conversor.webp",
-    "href": "https://njrzr.github.io/conversor-zp/",
-    "description": "Conversor de divisas y cryptomonedas.",
+    "href": "https://conversor-zp.netlify.app/",
+    "description": "Conversor de divisas y cryptos.",
     "type": "personal",
     "show": true
   },
@@ -28,7 +28,7 @@
     "image": "images/pukara.webp",
     "href": "https://www.pukara.es",
     "description": "Pagina de inicio de PukaraIT.",
-    "type": "work",
+    "type": "work @ pukara",
     "show": true
   },
   {
@@ -36,7 +36,7 @@
     "image": "images/main_bg.webp",
     "href": "https://www.canalpark.com",
     "description": "Pagina de demostracion de suites de edificio Canal Park.",
-    "type": "work",
+    "type": "work @ pukara",
     "show": false
   },
   {
@@ -44,22 +44,22 @@
     "image": "images/main_bg.webp",
     "href": "https://www.devoglas.com",
     "description": "Pagina de Devoglas",
-    "type": "work",
+    "type": "work @ pukara",
     "show": false
   },
   {
     "name": "Push Notifications",
-    "image": "images/main_bg.webp",
+    "image": "images/crochetisimo.webp",
     "href": "https://www.crochetisimo.com",
     "description": "App de notificaciones push para Crochetisimo.",
-    "type": "work",
+    "type": "work @ pukara",
     "show": true
   },{
     "name": "Cicerone",
     "image": "images/cicerone.webp",
     "href": "https://cicerone.guide/",
     "description": "Sitio turistico para consultar monumentos, puntos de interes y sitios naturales.",
-    "type": "work",
+    "type": "work @ pukara",
     "show": true
   }
 ]
