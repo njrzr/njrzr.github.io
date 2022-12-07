@@ -5,7 +5,8 @@
     "href": "https://conversor-zp.netlify.app/",
     "description": "Conversor de divisas y cryptos.",
     "type": "personal",
-    "show": true
+    "show": true,
+    "stack": ["vue", "tailwindcss"]
   },
   {
     "name": "En Memoria Luis Orlando Pernia Rujano",
@@ -13,7 +14,8 @@
     "href": "https://njrzr.github.io/en-memoria_luis-pernia/",
     "description": "Pagina memorial de mi difunto padre.",
     "type": "personal",
-    "show": true
+    "show": true,
+    "stack": ["html5", "css3", "javascript"]
   },
   {
     "name": "Xbox Achievements",
@@ -21,15 +23,17 @@
     "href": "https://enjeruzero-achievements.netlify.app/",
     "description": "Pagina donde muestro los logros obtenidos en Xbox, usando la api de OpenXbl.",
     "type": "personal",
-    "show": true
+    "show": true,
+    "stack": ["react", "tailwindcss"]
   },
   {
     "name": "Pukara",
     "image": "images/pukara.webp",
     "href": "https://www.pukara.es",
     "description": "Pagina de inicio de PukaraIT.",
-    "type": "work @ pukara",
-    "show": true
+    "type": "freelance",
+    "show": true,
+    "stack": ["h.u.g.o.", "tailwindcss", "javascript"]
   },
   {
     "name": "Canal Park",
@@ -37,7 +41,8 @@
     "href": "https://www.canalpark.com",
     "description": "Pagina de demostracion de suites de edificio Canal Park.",
     "type": "work @ pukara",
-    "show": false
+    "show": false,
+    "stack": ["wordpress", "html", "css3", "javascript"]
   },
   {
     "name": "Devoglas",
@@ -45,7 +50,8 @@
     "href": "https://www.devoglas.com",
     "description": "Pagina de Devoglas",
     "type": "work @ pukara",
-    "show": false
+    "show": false,
+    "stack": ["h.u.g.o.", "tailwindcss"]
   },
   {
     "name": "Push Notifications",
@@ -53,13 +59,16 @@
     "href": "https://www.crochetisimo.com",
     "description": "App de notificaciones push para Crochetisimo.",
     "type": "work @ pukara",
-    "show": true
-  },{
+    "show": true,
+    "stack": ["laravel", "tailwindcss", "javascript"]
+  },
+  {
     "name": "Cicerone",
     "image": "images/cicerone.webp",
     "href": "https://cicerone.guide/",
     "description": "Sitio turistico para consultar monumentos, puntos de interes y sitios naturales.",
     "type": "work @ pukara",
-    "show": true
+    "show": true,
+    "stack": ["nuxt", "tailwindcss"]
   }
 ]
