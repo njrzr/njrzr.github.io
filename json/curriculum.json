@@ -1,0 +1,62 @@
+[
+  {
+    "experience": [
+      {
+        "company": "PukaraIT",
+        "position": "Desarrollador Frontend",
+        "description": "Brinde soporte en atención al cliente, desarrollé funcionalidades en las apps (Kanaryo, Sura Videochat) que esta compañía manejo, además de estilización, también brinde outsourcing en Mobile Insight por medio de PukaraIT, desarrollando funcionalidades y estilización en el chat de su app VIBA.",
+        "start_time": "Junio 2021",
+        "end_time": "Enero 2022"
+      },
+      {
+        "company": "PukaraIT",
+        "position": "Desarrollador Fullstack",
+        "description": "En este tramo realice trabajos en Wordpress, HUGO, NuxtJS y Laravel, de las cuales salieron: pagina para Canal Park y Devoglas, aplicacion de turismo para buscar puntos de interes Cicerone y aplicacion de notificaciones push para Crochetisimo.",
+        "start_time": "Mayo 2022",
+        "end_time": "Octubre 2022"
+      }
+    ],
+    "certificates": [
+      {
+        "link": "https://www.freecodecamp.org/certification/njrzr/responsive-web-design",
+        "title": "Responsive Web Design"
+      },
+      {
+        "link": "https://www.freecodecamp.org/certification/njrzr/javascript-algorithms-and-data-structures",
+        "title": "JavaScript Algorithms and Data Structures"
+      },
+      {
+        "link": "https://platzi.com/p/njrzr/curso/1050-programacion-basica/diploma/detalle/",
+        "title": "Programación Básica"
+      },
+      {
+        "link": "https://platzi.com/p/njrzr/curso/1822-tailwind-css/diploma/detalle/",
+        "title": "Curso de Tailwind CSS"
+      },
+      {
+        "link": "https://www.freecodecamp.org/certification/njrzr/front-end-development-libraries",
+        "title": "Front End Development Libraries"
+      },
+      {
+        "link": "https://www.efset.org/cert/ENTfBa",
+        "title": "EF SET 74/100 C2 Proficient"
+      },
+      {
+        "link": "https://platzi.com/p/njrzr/curso/1098-ingenieria/diploma/detalle/",
+        "title": "Fundamentos de Ingeniería de Software"
+      },
+      {
+        "link": "https://platzi.com/p/njrzr/curso/2292-terminal/diploma/detalle/",
+        "title": "Introducción a la Terminal y Línea de Comandos"
+      },
+      {
+        "link": "https://platzi.com/p/njrzr/curso/2200-introduccion-azure/diploma/detalle/",
+        "title": "Introducción a la Nube con Azure"
+      },
+      {
+        "link": "https://platzi.com/p/njrzr/curso/1667-linux/diploma/detalle/",
+        "title": "Administración de Servidores Linux"
+      }
+    ]
+  }
+]
