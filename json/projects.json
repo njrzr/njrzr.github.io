@@ -59,7 +59,7 @@
     "href": "https://www.crochetisimo.com",
     "description": "App de notificaciones push para Crochetisimo.",
     "type": "work @ pukara",
-    "show": true,
+    "show": false,
     "stack": ["laravel", "tailwindcss", "javascript"]
   },
   {
