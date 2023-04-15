@@ -70,5 +70,15 @@
     "type": "work @ pukara",
     "show": true,
     "stack": ["nuxt", "tailwindcss"]
+  },
+  {
+    "name": "Coupon App",
+    "image": "images/coupon-app.webp",
+    "href": "https://njrzr-coupon-app-nuxt.vercel.app/",
+    "description": "App para generar y facilitar la distribucion de cupones.",
+    "type": "personal",
+    "show": true,
+    "stack": ["nuxt", "tailwindcss"]
   }
+
 ]
