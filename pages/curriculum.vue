@@ -32,7 +32,7 @@ const title: object = {
         <div>
           <p class="relative text-center">{{ data.contact.address.ve }}</p>
           <p class="relative text-center">{{ data.contact.networks.linkedin }}</p>
-          <p class="relative text-center">{{ data.contact.phone.ve }}</p>
+          <!-- <p class="relative text-center">{{ data.contact.phone.ve }}</p> -->
           <p class="relative text-center">{{ data.contact.email[0] }}</p>
         </div>
 
