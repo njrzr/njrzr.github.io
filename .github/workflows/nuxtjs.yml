@@ -80,11 +80,11 @@ jobs:
           VITE_USER_SECRET: ${{ secrets.VITE_USER_SECRET }}
           VITE_PASS_SECRET: ${{ secrets.VITE_PASS_SECRET }}
         # run: bun run generate
-        run: bun nuxt build
+        run: bun nuxt build --preset github_pages
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./.output/public
+          path: .output/public
 
   # Deployment job
   deploy:
