@@ -5,12 +5,12 @@ on:
   push:
     branches:
       - main
+env:
+  VITE_USER_SECRET: ${{ secrets.VITE_USER_SECRET }}
+  VITE_PASS_SECRET: ${{ secrets.VITE_PASS_SECRET }}
 jobs:
   build:
     runs-on: ubuntu-latest
-    env:
-      VITE_USER_SECRET: ${{ secrets.VITE_USER_SECRET }}
-      VITE_PASS_SECRET: ${{ secrets.VITE_PASS_SECRET }}
     steps:
       - uses: actions/checkout@v4
       - run: corepack enable
