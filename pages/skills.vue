@@ -62,55 +62,59 @@ onUnmounted(() => {
 
     <div v-if="status == 'pending' && data == null" class="relative w-full h-full loading bg-no-repeat bg-gradient-to-r from-transparent via-main to-transparent"></div>
 
-    <div v-else class="relative flex justify-center items-center w-full h-full">
-      <div @mouseenter="hoverDescription('html')" @mouseleave="hoverDescription()" class="absolute flex justify-center items-center w-30 h-24 sm:scale-150 bg-main hexagon-calc cursor-pointer translate-calc">
+    <div v-else class="relative md:flex p-2 pb-16 md:p-0 md:pb-0 md:justify-center md:items-center w-full h-full overflow-y-scroll md:overflow-y-hidden">
+      <div @mouseenter="hoverDescription('html')" @mouseleave="hoverDescription()" class="absolute hidden md:flex justify-center items-center w-30 h-24 sm:scale-150 bg-main hexagon-calc cursor-pointer translate-calc">
         <img class="relative w-14 h-14 object-cover object-center" src="/assets/svg/html5.svg" alt="HTML5 Icon">
       </div>
 
       <div class="translate-x-8 sm:translate-x-[20vw] sm:-translate-y-[50vh]">
-        <div @mouseenter="hoverDescription('css')" @mouseleave="hoverDescription()" class="absolute flex justify-center items-center w-30 h-24 sm:scale-150 bg-main hexagon-calc cursor-pointer translate-calc">
+        <div @mouseenter="hoverDescription('css')" @mouseleave="hoverDescription()" class="absolute hidden md:flex justify-center items-center w-30 h-24 sm:scale-150 bg-main hexagon-calc cursor-pointer translate-calc">
           <img class="relative w-14 h-14 object-cover object-center" src="/assets/svg/css.svg" alt="CSS Icon">
         </div>
       </div>
 
       <div class="-translate-x-42 sm:-translate-x-[30vw] translate-y-16 sm:-translate-y-[25vh]">
-        <div @mouseenter="hoverDescription('javascript')" @mouseleave="hoverDescription()" class="absolute flex justify-center items-center w-30 h-24 sm:scale-150 bg-main hexagon-calc cursor-pointer translate-calc">
+        <div @mouseenter="hoverDescription('javascript')" @mouseleave="hoverDescription()" class="absolute hidden md:flex justify-center items-center w-30 h-24 sm:scale-150 bg-main hexagon-calc cursor-pointer translate-calc">
           <img class="relative w-14 h-14 object-cover object-center" src="/assets/svg/javascript.svg" alt="Javscript Icon">
         </div>
       </div>
 
       <div class="sm:-translate-x-[50vw] -translate-y-48 sm:translate-y-[40vh]">
-        <div @mouseenter="hoverDescription('php')" @mouseleave="hoverDescription()" class="absolute flex justify-center items-center w-30 h-24 sm:scale-150 bg-main hexagon-calc cursor-pointer translate-calc">
+        <div @mouseenter="hoverDescription('php')" @mouseleave="hoverDescription()" class="absolute hidden md:flex justify-center items-center w-30 h-24 sm:scale-150 bg-main hexagon-calc cursor-pointer translate-calc">
           <img class="relative w-14 h-14 object-cover object-center" src="/assets/svg/php.svg" alt="PHP Icon">
         </div>
       </div>
 
       <div class="sm:translate-x-[45vw] translate-y-56 sm:translate-y-[20vh]">
-        <div @mouseenter="hoverDescription('sql')" @mouseleave="hoverDescription()" class="absolute flex justify-center items-center w-30 h-24 sm:scale-150 bg-main hexagon-calc cursor-pointer translate-calc">
+        <div @mouseenter="hoverDescription('sql')" @mouseleave="hoverDescription()" class="absolute hidden md:flex justify-center items-center w-30 h-24 sm:scale-150 bg-main hexagon-calc cursor-pointer translate-calc">
           <img class="relative w-14 h-14 object-cover object-center" src="/assets/svg/mariadb.svg" alt="MariaDB Icon">
         </div>
       </div>
 
       <div class="-translate-x-24 sm:-translate-x-[20vh] -translate-y-72 sm:translate-y-[50vh]">
-        <div @mouseenter="hoverDescription('bash')" @mouseleave="hoverDescription()" class="absolute flex justify-center items-center w-30 h-24 sm:scale-150 bg-main hexagon-calc cursor-pointer translate-calc">
+        <div @mouseenter="hoverDescription('bash')" @mouseleave="hoverDescription()" class="absolute hidden md:flex justify-center items-center w-30 h-24 sm:scale-150 bg-main hexagon-calc cursor-pointer translate-calc">
           <img class="relative w-14 h-14 object-cover object-center" src="/assets/svg/gnometerminal.svg" alt="Terminal Icon">
         </div>
       </div>
 
       <div class="translate-x-42 sm:translate-x-[70vw] -translate-y-16 sm:translate-y-[50vh]">
-        <div @mouseenter="hoverDescription('others')" @mouseleave="hoverDescription()" class="absolute flex justify-center items-center w-30 h-24 sm:scale-150 bg-main hexagon-calc cursor-pointer translate-calc">
+        <div @mouseenter="hoverDescription('others')" @mouseleave="hoverDescription()" class="absolute hidden md:flex justify-center items-center w-30 h-24 sm:scale-150 bg-main hexagon-calc cursor-pointer translate-calc">
           <img class="relative w-14 h-14 object-cover object-center" src="/assets/svg/questionicon.svg" alt="Question Icon">
         </div>
       </div>
 
+      <div v-for="(item, index) of data" class="relative flex flex-col md:hidden w-full h-auto bg-white/50 my-1 p-2 rounded">
+        <p class="text-right text-3xl font-medieval border-b-2">{{ index }}</p>
+        <p v-for="type of item" class="font-medieval text-xl bg-main/50 text-white my-1 p-1 rounded">{{ type }}</p>
+      </div>
     </div>
 
     <div v-if="data" :class="['absolute top-0 w-4/12 p-4 h-full bg-white/75 transition-all duration-500 opacity-0 z-20',{ '-left-4/12 box-shadow-left' : x > clientWidth / 2 }, { '-right-4/12 box-shadow-right' : x < clientWidth / 2 }, { 'w-4/12 left-0 opacity-100' : showDescription != false && x > clientWidth / 2 }, { 'w-4/12 right-0 opacity-100' : showDescription != false && x < clientWidth / 2 }]">
       <p class="text-right text-4xl font-semibold uppercase my-2 border-b-2 font-medieval">{{ skill }}</p>
       <p v-for="item of data[skill]" class="text-white text-2xl uppercase my-1 pl-4 font-medieval bg-main/50 p-1 rounded">{{ item }}</p>
     </div>
-
-    <p class="absolute left-4 bottom-4 text-5xl sm:text-8xl text-white shadow-text font-medieval">Habilidades</p>
+    
+    <p class="absolute left-4 bottom-4 text-4xl sm:text-8xl text-white shadow-text font-medieval">Habilidades</p>
   </div>
 </template>
 

@@ -18,10 +18,10 @@ const { data, status } = await useLazyFetch('/api/getAbout')
     <div v-if="status == 'pending' && data == null" class="relative w-full h-full loading bg-no-repeat bg-gradient-to-r from-transparent via-main to-transparent"></div>
 
     <div v-else class="relative flex justify-end items-start w-full h-full">
-      <p v-html="data" class="relative w-1/2 h-full p-8 bg-white/75 font-semibold text-4xl font-grenze"></p>
+      <p v-html="data" class="relative w-full md:w-1/2 h-full p-8 pt-14 md:p-8 bg-white/75 font-semibold text-xl md:text-4xl font-grenze"></p>
     </div>
 
-    <p class="absolute left-4 bottom-4 text-5xl sm:text-8xl text-white shadow-text font-grenze">Sobre mi</p>
+    <p class="absolute left-4 bottom-4 text-4xl sm:text-8xl text-white shadow-text font-grenze">Sobre mi</p>
   </div>
 </template>
 

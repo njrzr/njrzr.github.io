@@ -79,7 +79,7 @@ const changeNumber = (value: number) => {
         </NuxtLink>
       </ul>
 
-      <p class="absolute top-0 right-0 text-white font-[700] overflow-hidden">
+      <p class="hidden md:block absolute top-0 right-0 text-white font-[700] overflow-hidden">
         <span class="text-8xl font-metamorphous uppercase inline-block -rotate-90 translate-x-44 -translate-y-24 shadow-text">link</span>
         <span class="text-[30rem] font-oswald inline-block text-center w-80 h-auto">{{ number }}</span>
       </p>
