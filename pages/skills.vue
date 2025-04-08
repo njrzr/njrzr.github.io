@@ -62,7 +62,7 @@ onUnmounted(() => {
 
     <div v-if="status == 'pending' && data == null" class="relative w-full h-full loading bg-no-repeat bg-gradient-to-r from-transparent via-main to-transparent"></div>
 
-    <div v-else class="relative md:flex p-2 pb-16 md:p-0 md:pb-0 md:justify-center md:items-center w-full h-full overflow-y-scroll md:overflow-y-hidden">
+    <div v-else class="relative md:flex p-2 pb-16 md:p-0 md:pb-0 md:justify-center md:items-center w-full h-full overflow-y-scroll md:overflow-hidden">
       <div @mouseenter="hoverDescription('html')" @mouseleave="hoverDescription()" class="absolute hidden md:flex justify-center items-center w-30 h-24 sm:scale-150 bg-main hexagon-calc cursor-pointer translate-calc">
         <img class="relative w-14 h-14 object-cover object-center" src="/assets/svg/html5.svg" alt="HTML5 Icon">
       </div>
