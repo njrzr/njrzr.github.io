@@ -79,7 +79,8 @@ jobs:
         env:
           VITE_USER_SECRET: ${{ secrets.VITE_USER_SECRET }}
           VITE_PASS_SECRET: ${{ secrets.VITE_PASS_SECRET }}
-        run: bun run generate
+        # run: bun run generate
+        run: bun nuxt build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
