@@ -5,7 +5,7 @@ const props = defineProps({})
 const emits = defineEmits([])
 
 useHead({
-  'title': 'Inicio'
+  'title': 'ZEROPLUS - Inicio'
 })
 
 const links = ref([])

@@ -2,7 +2,7 @@
 import { ref, onMounted } from 'vue'
 
 useHead({
-  'title': 'Trabajos'
+  'title': 'ZEROPLUS - Trabajos'
 })
 
 const props = defineProps({})

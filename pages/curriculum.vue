@@ -2,7 +2,7 @@
 import { ref } from 'vue'
 
 useHead({
-  'title': 'Curriculum'
+  'title': 'ZEROPLUS - Curriculum'
 })
 
 const props = defineProps({})
