@@ -22,7 +22,7 @@ const checkImage = (value: string) => {
 
     <div v-if="status == 'pending' && data == null" class="relative w-full h-full loading bg-no-repeat bg-gradient-to-r from-transparent via-main to-transparent"></div>
 
-    <div v-else class="relative w-full h-auto p-2 md:p-0 overflow-y-scroll scrollbar-none">
+    <div v-else class="relative w-full h-auto p-2 pt-14 pb-16 md:p-0 md:py-0 overflow-y-scroll scrollbar-none">
       <div v-for="item, index of data" class="relative w-full !md:w-10/12 sm:w-8/12 h-auto md:h-72 bg-white mx-auto my-2 flex flex-col md:flex-row justify-between items-center gap-6 rounded-xl border-2 border-slate-500 overflow-hidden md:even:-left-32 md:odd:left-32">
         <div class="relative w-full md:w-4/12 h-full overflow-hidden">
           <img class="w-full md:h-full object-left-top object-cover scale-125" :src="checkImage(item.image)" alt="Proyect Image">

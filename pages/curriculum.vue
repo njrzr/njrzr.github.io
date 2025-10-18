@@ -26,7 +26,7 @@ const title: object = {
     <div v-if="status == 'pending' && data == null" class="relative w-full h-full loading bg-no-repeat bg-gradient-to-r from-transparent via-main to-transparent"></div>
 
     <div v-else class="relative flex justify-end items-start w-full h-full">
-      <div v-if="data" class="relative w-full md:w-1/2 h-full p-4 md:p-16 flex flex-col gap-4 bg-white/75 font-montserrat overflow-y-scroll scrollbar-none">
+      <div v-if="data" class="relative w-full md:w-1/2 h-full p-4 pt-14 md:p-16 flex flex-col gap-4 bg-white/75 font-montserrat overflow-y-scroll scrollbar-none">
         <p class="relative text-4xl text-center border-b-2 pb-4">{{ data.name }}</p>
 
         <div>

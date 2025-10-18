@@ -124,7 +124,7 @@ onUnmounted(() => {
       <p v-for="item of data[skill]" class="text-white text-2xl uppercase my-1 pl-4 font-medieval bg-main/50 p-1 rounded">{{ item }}</p>
     </div>
     
-    <p class="absolute left-4 bottom-4 text-4xl text-8xl text-white shadow-text font-medieval">Habilidades</p>
+    <p class="absolute left-4 bottom-4 text-4xl sm:text-8xl text-white shadow-text font-medieval">Habilidades</p>
   </div>
 </template>
 
